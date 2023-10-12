@@ -1,0 +1,15 @@
+/Users/afraelortiz/repos/jaid/src/jaid-core/bin/Debug/net7.0/jaid-core.deps.json
+/Users/afraelortiz/repos/jaid/src/jaid-core/bin/Debug/net7.0/jaid-core.dll
+/Users/afraelortiz/repos/jaid/src/jaid-core/bin/Debug/net7.0/jaid-core.pdb
+/Users/afraelortiz/repos/jaid/src/jaid-core/obj/Debug/net7.0/jaid-core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/afraelortiz/repos/jaid/src/jaid-core/obj/Debug/net7.0/jaid-core.AssemblyInfoInputs.cache
+/Users/afraelortiz/repos/jaid/src/jaid-core/obj/Debug/net7.0/jaid-core.AssemblyInfo.cs
+/Users/afraelortiz/repos/jaid/src/jaid-core/obj/Debug/net7.0/jaid-core.csproj.CoreCompileInputs.cache
+/Users/afraelortiz/repos/jaid/src/jaid-core/obj/Debug/net7.0/jaid-core.dll
+/Users/afraelortiz/repos/jaid/src/jaid-core/obj/Debug/net7.0/refint/jaid-core.dll
+/Users/afraelortiz/repos/jaid/src/jaid-core/obj/Debug/net7.0/jaid-core.pdb
+/Users/afraelortiz/repos/jaid/src/jaid-core/obj/Debug/net7.0/ref/jaid-core.dll
+/Users/afraelortiz/repos/jaid/src/jaid-core/bin/Debug/net7.0/jaid-common.dll
+/Users/afraelortiz/repos/jaid/src/jaid-core/bin/Debug/net7.0/jaid-common.pdb
+/Users/afraelortiz/repos/jaid/src/jaid-core/obj/Debug/net7.0/jaid-core.csproj.AssemblyReference.cache
+/Users/afraelortiz/repos/jaid/src/jaid-core/obj/Debug/net7.0/jaid-core.csproj.CopyComplete

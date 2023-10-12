@@ -1,0 +1,215 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/afraelortiz/repos/jaid/src/jaid-cli/jaid-cli.csproj": {}
+  },
+  "projects": {
+    "/Users/afraelortiz/repos/jaid/src/jaid-cli/jaid-cli.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/afraelortiz/repos/jaid/src/jaid-cli/jaid-cli.csproj",
+        "projectName": "jaid-cli",
+        "projectPath": "/Users/afraelortiz/repos/jaid/src/jaid-cli/jaid-cli.csproj",
+        "packagesPath": "/Users/afraelortiz/.nuget/packages/",
+        "outputPath": "/Users/afraelortiz/repos/jaid/src/jaid-cli/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/afraelortiz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/afraelortiz/repos/jaid/src/jaid-core/jaid-core.csproj": {
+                "projectPath": "/Users/afraelortiz/repos/jaid/src/jaid-core/jaid-core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.ColoredConsole": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.47.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/afraelortiz/repos/jaid/src/jaid-common/jaid-common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/afraelortiz/repos/jaid/src/jaid-common/jaid-common.csproj",
+        "projectName": "jaid-common",
+        "projectPath": "/Users/afraelortiz/repos/jaid/src/jaid-common/jaid-common.csproj",
+        "packagesPath": "/Users/afraelortiz/.nuget/packages/",
+        "outputPath": "/Users/afraelortiz/repos/jaid/src/jaid-common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/afraelortiz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/afraelortiz/repos/jaid/src/jaid-core/jaid-core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/afraelortiz/repos/jaid/src/jaid-core/jaid-core.csproj",
+        "projectName": "jaid-core",
+        "projectPath": "/Users/afraelortiz/repos/jaid/src/jaid-core/jaid-core.csproj",
+        "packagesPath": "/Users/afraelortiz/.nuget/packages/",
+        "outputPath": "/Users/afraelortiz/repos/jaid/src/jaid-core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/afraelortiz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/afraelortiz/repos/jaid/src/jaid-common/jaid-common.csproj": {
+                "projectPath": "/Users/afraelortiz/repos/jaid/src/jaid-common/jaid-common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Atlassian.SDK": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "microsoft.extensions.configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

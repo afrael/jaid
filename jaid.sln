@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE7B843E-71A0-42F8-9CE8-36DF2E5005E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jaid-cli", "src\jaid-cli\jaid-cli.csproj", "{F8163FBB-F321-442A-BB5A-1B0532BC4223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jaid-core", "src\jaid-core\jaid-core.csproj", "{B3378B66-5ACB-4E8C-98C4-568FFB761FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jaid-common", "src\jaid-common\jaid-common.csproj", "{2BFAF794-B7D3-4944-B80E-2F4B7C872BD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8163FBB-F321-442A-BB5A-1B0532BC4223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8163FBB-F321-442A-BB5A-1B0532BC4223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8163FBB-F321-442A-BB5A-1B0532BC4223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8163FBB-F321-442A-BB5A-1B0532BC4223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3378B66-5ACB-4E8C-98C4-568FFB761FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3378B66-5ACB-4E8C-98C4-568FFB761FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3378B66-5ACB-4E8C-98C4-568FFB761FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3378B66-5ACB-4E8C-98C4-568FFB761FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFAF794-B7D3-4944-B80E-2F4B7C872BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFAF794-B7D3-4944-B80E-2F4B7C872BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFAF794-B7D3-4944-B80E-2F4B7C872BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFAF794-B7D3-4944-B80E-2F4B7C872BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8163FBB-F321-442A-BB5A-1B0532BC4223} = {DE7B843E-71A0-42F8-9CE8-36DF2E5005E7}
+		{B3378B66-5ACB-4E8C-98C4-568FFB761FCF} = {DE7B843E-71A0-42F8-9CE8-36DF2E5005E7}
+		{2BFAF794-B7D3-4944-B80E-2F4B7C872BD0} = {DE7B843E-71A0-42F8-9CE8-36DF2E5005E7}
+	EndGlobalSection
+EndGlobal
