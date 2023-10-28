@@ -36,6 +36,26 @@
                 "${workspaceFolder}/jaid.sln"
             ],
             "problemMatcher": "$msCompile"
-        }
+        }, 
+        {
+            "label": "test",
+            "command": "dotnet",
+            "type": "process",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "args": [
+                "test"
+            ],
+            "presentation": {
+                "focus": true,
+                "clear": true
+            },
+            "problemMatcher": "$msCompile"
+        },
     ]
 }

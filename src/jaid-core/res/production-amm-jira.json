@@ -1,0 +1,156 @@
+{
+    "expand": "renderedFields,names,schema,transitions,operations,editmeta,changelog",
+    "fields": {
+        "summary": "$change_description",
+        "customfield_11541": "$change_description",
+        "customfield_11546": "$change_start_time",
+        "customfield_11547": "$change_end_time",
+        "customfield_18320": "Agency Management Module in ATL production will be deployed with zero downtime.",
+        "issuetype": {
+            "self": "https://ultidev.ultimatesoftware.com/rest/api/2/issuetype/10702",
+            "id": "10702",
+            "description": "",
+            "iconUrl": "https://ultidev.ultimatesoftware.com/secure/viewavatar?size=xsmall&avatarId=18446&avatarType=issuetype",
+            "name": "Product Release",
+            "subtask": false
+        },
+        "customfield_19420": "Latest version",
+        "components": [
+            {
+                "self": "https://ultidev.ultimatesoftware.com/rest/api/2/component/21415",
+                "id": "21415",
+                "name": "PS US Tax Setup"
+            }
+        ],
+        "customfield_11752": [
+            {
+                "self": "https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/56345",
+                "value": "Tax Filing",
+                "id": "56345"
+            }
+        ],
+        "customfield_11362": [
+            {
+                "self": "https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/32627",
+                "value": "Atlanta",
+                "id": "32627"
+            }
+        ],
+        "customfield_19421": {
+            "self": "https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/110440",
+            "value": "No",
+            "id": "110440"
+        },
+        "project": {
+            "self": "https://ultidev.ultimatesoftware.com/rest/api/2/project/10380",
+            "id": "10380",
+            "key": "SD",
+            "name": "SaaS Delivery",
+            "avatarUrls": {
+                "48x48": "https://ultidev.ultimatesoftware.com/secure/projectavatar?avatarId=10011",
+                "24x24": "https://ultidev.ultimatesoftware.com/secure/projectavatar?size=small&avatarId=10011",
+                "16x16": "https://ultidev.ultimatesoftware.com/secure/projectavatar?size=xsmall&avatarId=10011",
+                "32x32": "https://ultidev.ultimatesoftware.com/secure/projectavatar?size=medium&avatarId=10011"
+            }
+        },
+        "customfield_11562": "Test Plan: (10 minutes)\r\nhttps://engconf.int.kronos.com/display/PaymentServices/AMM+Deployment+Steps+and+Validations",
+        "fixVersions": [
+            {
+                "self": "https://ultidev.ultimatesoftware.com/rest/api/2/version/28923",
+                "id": "28923",
+                "name": "$fix_version_year",
+                "archived": false,
+                "released": false,
+                "releaseDate": "$fix_version_year-12-31"
+            }
+        ],
+        "customfield_11561": "Deployment Steps: (10 minutes)\r\nhttps://engconf.int.kronos.com/display/PaymentServices/AMM+Deployment+Steps+and+Validations",
+        "customfield_11563": "Revert Process: (10 minutes)\r\nhttps://engconf.int.kronos.com/display/PaymentServices/AMM+Deployment+Steps+and+Validations",
+        "customfield_11556": {
+            "self": "https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/35259",
+            "value": "Low",
+            "id": "35259"
+        },
+        "customfield_10502": {
+            "self": "https://ultidev.ultimatesoftware.com/rest/api/2/user?username=afrael.ortiz@ukg.com",
+            "name": "afrael.ortiz@ukg.com",
+            "key": "afrael.ortiz@ukg.com",
+            "emailAddress": "afrael.ortiz@ukg.com",
+            "displayName": "Afrael Ortiz",
+            "active": true,
+            "timeZone": "America/New_York"
+        },
+        "customfield_11555": "atl quark amm production project",
+        "customfield_11554": {
+            "self": "https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/50678",
+            "value": "Deploy - Application Upgrade",
+            "id": "50678"
+        },
+        "labels": [
+            "AMM",
+            "appdeploy-CU"
+        ],
+        "customfield_11545": {
+            "name": "$issue_assignee"
+        },
+        "customfield_11544": {
+            "name": "$issue_assignee"
+        },
+        "customfield_11543": {
+            "self": "https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/$change_type",
+            "id": "$change_type"
+        },
+        "customfield_14121": {
+            "self": "https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/50121",
+            "value": "No - not categorized with emergency priority",
+            "id": "50121"
+        },
+        "customfield_11136": [
+            {
+                "self": "https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/33348",
+                "value": "ETAXINT-PROD",
+                "id": "128170"
+            }
+        ],
+        "customfield_10756": {
+            "name": "$issue_owner"
+        },
+        "customfield_22020": {
+            "value": "No",
+            "id": "129070"
+        },
+        "customfield_22320": [
+            {
+                "self":"https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/132600",
+                "value":"This change will impact internal/external customers",
+                "id": "132600"
+            },
+            {
+                "self":"https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/132601",
+                "value":"This change will introduce new features/services",
+                "id": "132601"
+            },
+            {
+                "self":"https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/132602",
+                "value":"Alerting/monitoring is up to date",
+                "id": "132602"
+            },
+            {
+                "self":"https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/132603",
+                "value":"There is a TESTED rollback plan",
+                "id": "132603"
+            },
+            {
+                "self":"https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/132604",
+                "value":"Rollback plan has been tested in the past 3 months",
+                "id": "132604"
+            }
+        ], 
+        "customfield_11351": "$rollback_duration_time minutes",
+        "customfield_22426": "2023-10-01T11:05:00.000+0000",
+        "customfield_22425": {
+            "name": "$issue_assignee"
+        },
+        "customfield_22424": "$test_ending_time"
+    }
+}

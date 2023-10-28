@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jaid-core", "src\jaid-core\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jaid-common", "src\jaid-common\jaid-common.csproj", "{2BFAF794-B7D3-4944-B80E-2F4B7C872BD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jaid-tests", "src\jaid-tests\jaid-tests.csproj", "{96744459-78A3-4A80-A122-3A2CD25FAC79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,10 +34,15 @@ Global
 		{2BFAF794-B7D3-4944-B80E-2F4B7C872BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BFAF794-B7D3-4944-B80E-2F4B7C872BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BFAF794-B7D3-4944-B80E-2F4B7C872BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96744459-78A3-4A80-A122-3A2CD25FAC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96744459-78A3-4A80-A122-3A2CD25FAC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96744459-78A3-4A80-A122-3A2CD25FAC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96744459-78A3-4A80-A122-3A2CD25FAC79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F8163FBB-F321-442A-BB5A-1B0532BC4223} = {DE7B843E-71A0-42F8-9CE8-36DF2E5005E7}
 		{B3378B66-5ACB-4E8C-98C4-568FFB761FCF} = {DE7B843E-71A0-42F8-9CE8-36DF2E5005E7}
 		{2BFAF794-B7D3-4944-B80E-2F4B7C872BD0} = {DE7B843E-71A0-42F8-9CE8-36DF2E5005E7}
+		{96744459-78A3-4A80-A122-3A2CD25FAC79} = {DE7B843E-71A0-42F8-9CE8-36DF2E5005E7}
 	EndGlobalSection
 EndGlobal

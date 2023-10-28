@@ -15,5 +15,18 @@
   <ItemGroup>
     <ProjectReference Include="..\jaid-common\jaid-common.csproj" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <Content Remove="res\production-amm-jira.json" />
+    <Content Remove="res\staging-amm-jira.json" />
+    <Content Remove="res\production-tax-integration-jira.json" />
+    <Content Remove="res\staging-tax-integration-jira.json" />
+  </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Include="res\production-amm-jira.json" />
+    <EmbeddedResource Include="res\staging-amm-jira.json" />
+    <EmbeddedResource Include="res\production-tax-integration-jira.json" />
+    <EmbeddedResource Include="res\staging-tax-integration-jira.json" />
+  </ItemGroup>
 </Project>

@@ -3,6 +3,7 @@ using CommandLine;
 using Microsoft.Extensions.Configuration;
 using jaid.models;
 using jaid.core.io;
+using Spectre.Console;
 
 namespace jaid
 {
@@ -33,8 +34,8 @@ namespace jaid
 
             return await Parser.Default.ParseArguments<NewOptions, GetOptions, ListOptions>(args)
                 .MapResult(
-                    (NewOptions opts)  => RunCreateAndReturnExitCode(configuration, opts),
-                    (GetOptions opts)  => RunGetAndReturnExitCode(configuration, opts),
+                    (NewOptions opts) => RunCreateAndReturnExitCode(configuration, opts),
+                    (GetOptions opts) => RunGetAndReturnExitCode(configuration, opts),
                     (ListOptions opts) => RunListAndReturnExitCode(configuration, opts),
                 errs => Task.FromResult(1));
         }
@@ -46,8 +47,9 @@ namespace jaid
 
         private static async Task<int> RunGetAndReturnExitCode(IConfiguration config, GetOptions opts)
         {
-            var jiraClient = JaidJiraReader.CreateJiraClient(config);
-            var jira = await jiraClient.GetJiraIssueDetailsByKey(opts.JiraId);
+            AnsiConsole.Markup("[underline red]Hello[/] World!");
+            var jiraReader = new JaidJiraReader(config);
+            var jira = await jiraReader.GetJiraIssueDetailsByKey(opts.JiraId);
             return 100;
         }
 
