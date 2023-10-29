@@ -53,7 +53,6 @@
                 "32x32": "https://ultidev.ultimatesoftware.com/secure/projectavatar?size=medium&avatarId=10011"
             }
         },
-        "customfield_11562": "Test Plan: (10 minutes)\r\nhttps://engconf.int.kronos.com/display/PaymentServices/AMM+Deployment+Steps+and+Validations",
         "fixVersions": [
             {
                 "self": "https://ultidev.ultimatesoftware.com/rest/api/2/version/28923",
@@ -64,8 +63,9 @@
                 "releaseDate": "$fix_version_year-12-31"
             }
         ],
-        "customfield_11561": "Deployment Steps: (10 minutes)\r\nhttps://engconf.int.kronos.com/display/PaymentServices/AMM+Deployment+Steps+and+Validations",
-        "customfield_11563": "Revert Process: (10 minutes)\r\nhttps://engconf.int.kronos.com/display/PaymentServices/AMM+Deployment+Steps+and+Validations",
+        "customfield_11561": "Deployment Steps: (10 minutes)\r\n$deployment_documentation",
+        "customfield_11562": "Test Plan: (5 minutes)\r\n$deployment_documentation",
+        "customfield_11563": "Revert Process: (10 minutes)\r\n$deployment_documentation",
         "customfield_11556": {
             "self": "https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/35259",
             "value": "Low",
@@ -146,11 +146,21 @@
                 "id": "132604"
             }
         ], 
+        "customfield_22423": "$test_starting_time", 
+        "customfield_22424": "$test_ending_time",
+        "customfield_22421": "$change_starting_time", 
+        "customfield_22422": "$change_ending_time", 
+        "customfield_22420": [
+            {
+            "self":"https://ultidev.ultimatesoftware.com/rest/api/2/customFieldOption/133073",
+            "value":"Test",
+            "id": "133073"
+            }
+        ], 
         "customfield_11351": "$rollback_duration_time minutes",
         "customfield_22426": "2023-10-01T11:05:00.000+0000",
         "customfield_22425": {
             "name": "$issue_assignee"
-        },
-        "customfield_22424": "$test_ending_time"
+        }
     }
 }

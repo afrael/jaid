@@ -35,7 +35,7 @@ namespace jaid.core.io
             return _jiraClient;
         }
 
-        private static (string urlEndpoint, string user, string password) ResolveJiraSettings(IConfiguration configuration)
+        public static (string urlEndpoint, string user, string password) ResolveJiraSettings(IConfiguration configuration)
         {
             const string envVarPrefix = "___ENV___";
             var jiraApiEndpoint = configuration["JiraSettings:ApiEndPoint"];
